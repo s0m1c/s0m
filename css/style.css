@@ -136,6 +136,14 @@ body:after {
   -o-transition: 0.4s all ease-in;
   transition: 0.4s all ease-in;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials__link svg {
+  fill: #bf24b5;
+  height: 40px;
 }
 
 .socials__link:after,
@@ -240,7 +248,7 @@ body:after {
 
 .about-me {
   margin-bottom: 50px;
-  max-width: 500px;
+  max-width: 1000px;
   color: #B5B6B4;
   font-family: 'Montserrat', sans-serif;
   display: -webkit-box;
@@ -297,6 +305,10 @@ body:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.language_btn {
+	cursor: pointer;
 }
 
 .ru {
