@@ -104,6 +104,7 @@ body:before {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+  animation: arrow 10s infinite;
 }
 
 body:after {
@@ -116,6 +117,7 @@ body:after {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+  animation: arrow 10s infinite;
 }
 
 .socials {
@@ -244,6 +246,7 @@ body:after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 50px;
 }
 
 .about-me {
@@ -430,3 +433,4 @@ body:after {
     font-size: 35px;
   }
 }
+@keyframes arrow{0%,100%{-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);}50%{-webkit-transform: translateY(-50%) translateY(50px);-ms-transform: translateY(-50%) translateY(50px);-o-transform: translateY(-50%) translateY(50px);transform: translateY(-50%) translateY(50px);}}
